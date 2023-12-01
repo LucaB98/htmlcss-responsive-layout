@@ -204,3 +204,28 @@ ul li{
     line-height: 40px;
     font-size: 20px;
 }
+
+#footer{
+    background-color: #7C69A4;
+    color: white;
+}
+
+.box-footer{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.address-footer{
+    font-style: normal;
+    padding: 10px 0;
+}
+
+.list-footer{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.list-footer a{
+    color: white;
+    text-decoration: underline;
+    margin: 0 20px;
+}
