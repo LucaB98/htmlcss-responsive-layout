@@ -27,6 +27,10 @@ body{
     background-color: white;
 }
 
+.bkc-grey{
+    background-color: #F6F5F3;
+}
+
 .col-30{
     flex-basis: 30%;
 }
@@ -39,11 +43,19 @@ body{
     display: flex;
 }
 
+.brd-radius-10{
+    border-radius: 10%;
+}
+
 /* GENERIC */   
 
 a{
     text-decoration: none;
     color: #FF9614;
+}
+
+ul{
+    list-style-type: none;
 }
 
 /* header */
@@ -59,7 +71,6 @@ a{
     text-shadow: 2px 2px rgb(216, 216, 216);
     text-align: center;
     line-height: 70px;
-    
 }
 
 
@@ -102,9 +113,7 @@ a{
 .container-small{
     width: 450px;
     margin: 0 auto;
-    background-color: #F6F5F3;
-    padding: 10px;
-    
+    padding: 10px;  
 }
 
 .box-top{
@@ -116,3 +125,10 @@ a{
     font-size: 14px;
 }
 
+li .fa-li{
+    color: #FF9614;
+}
+
+ul li{
+    margin: 15px 0;
+}
