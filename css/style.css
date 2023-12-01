@@ -43,6 +43,10 @@ body{
     display: flex;
 }
 
+.divider{
+    border: 1px solid #FF9614;
+    width: 70px;
+}
 
 .btn{
     background-color: white;
@@ -54,6 +58,12 @@ body{
 }
 
 /* GENERIC */   
+
+img{
+    width: 100%;
+    height: auto;
+}
+
 
 a{
     text-decoration: none;
@@ -167,4 +177,30 @@ ul li{
 
 .youtube{
     color: #E62222;
+}
+
+.presentation{
+    padding: 30px 0;
+}
+
+.presentation > *{
+    margin: 25px 0;
+}
+
+.presentation h2{
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.picture{
+    justify-content: center;
+}
+
+.picture img{
+    width: 50%;
+}
+
+.description{
+    line-height: 40px;
+    font-size: 20px;
 }
