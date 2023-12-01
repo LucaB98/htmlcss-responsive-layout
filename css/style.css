@@ -43,8 +43,14 @@ body{
     display: flex;
 }
 
-.brd-radius-10{
-    border-radius: 10%;
+
+.btn{
+    background-color: white;
+    border-radius: 40%;
+    box-shadow: 2px 2px lightgray;
+    height: 10px;
+    width: 10px;
+    padding: 10px;
 }
 
 /* GENERIC */   
@@ -110,6 +116,12 @@ ul{
     color: #FF9614;
 }
 
+.guide{
+    border-radius: 1%;
+    background-color: white;
+    box-shadow: 2px 2px lightgray;
+}
+
 .container-small{
     width: 450px;
     margin: 0 auto;
@@ -131,4 +143,28 @@ li .fa-li{
 
 ul li{
     margin: 15px 0;
+}
+
+.social{
+    justify-content: space-around;
+}
+
+.facebook{
+    color: #1A77F3;
+}
+
+.twitter{
+    color: #009EFF;
+}
+
+.instagram{
+    color: #DE4A95;
+}
+
+.pinterest{
+    color: #E62235;
+}
+
+.youtube{
+    color: #E62222;
 }
