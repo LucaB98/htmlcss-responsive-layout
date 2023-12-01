@@ -7,10 +7,23 @@
 
 /*UTILS*/
 body{
-    font-family: 'Rubik Mono One', sans-serif;
+    font-family: 'Helvetica neue', sans-serif;
 }
 
 .container{
     width: 100%;
     margin: 0 auto;
+}
+
+/* GENERIC */   
+#header{
+    height: 100px;
+    width: 100%;
+}
+
+.title-header{
+    font-family: 'Nerko One', cursive;
+    color: #FF9614;
+    text-shadow: 2px 2px black;
+    text-align: center;
 }
