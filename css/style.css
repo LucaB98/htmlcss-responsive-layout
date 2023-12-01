@@ -11,7 +11,7 @@ body{
 }
 
 .container{
-    width: 550px;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -72,6 +72,7 @@ a{
 
 ul{
     list-style-type: none;
+    list-style-position: inside;
 }
 
 /* header */
@@ -132,8 +133,12 @@ ul{
     box-shadow: 2px 2px lightgray;
 }
 
+.recipe{
+    margin-left: 0;
+}
+
 .container-small{
-    width: 450px;
+    width: 95%;
     margin: 0 auto;
     padding: 10px;  
 }
@@ -179,9 +184,12 @@ ul li{
     color: #E62222;
 }
 
-.presentation{
-    padding: 30px 0;
+.ads{
+    margin: 20px 0;
+    display: none;
 }
+
+
 
 .presentation > *{
     margin: 25px 0;

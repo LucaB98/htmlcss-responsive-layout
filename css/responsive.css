@@ -1,4 +1,33 @@
-@media  screen and (min-width: 768px;){
+@media  screen and (min-width: 768px){
+    .title-header{
+        text-align: left;
+        padding: 0 20px;
+    }
+
+
+    .title-dessert::after{
+        content: " (Dolce tradizionale)";
+    }
+
+    .recipe{
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 16px;
+        justify-content: flex-start;
+        align-items: center;
+
+    }
+
+   .recipe li{
+        margin: 10px 30px;
+   }
     
+   .btn{
+    padding: 10px 50px;
+    border-radius: 60px;
+   }
+
+   .ads{
+    display: inline-block;
+   }
 }
-    
