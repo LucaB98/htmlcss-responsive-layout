@@ -165,6 +165,10 @@ ul li{
     margin: 15px 0;
 }
 
+.box-social{
+    padding-top: 40px;
+}
+
 .social{
     justify-content: space-around;
 }

@@ -33,6 +33,8 @@
 
    .ads{
     display: inline-block;
+    width: 100%;
+    padding: 30px;
    }
 
    .tiramisu{
@@ -43,6 +45,16 @@
 
 
 @media screen and (min-width: 992px){
+    
+    .container{
+        width: 75%;
+    }
+
+    .container-small{
+        width: 80%;
+    }
+    
+    
     .row{
         display: flex;
     }
@@ -50,4 +62,49 @@
         width: 100% ;
         height: 100%;
     }
+    .col-30{
+        height: 600px;
+    }
+    .recipe {
+       flex-direction: column;
+       align-items: flex-start;
+    }
+
+    .facebook::after{
+        content: ' Facebook';
+        color: black;
+    }
+
+    .twitter::after{
+        content: ' Twitter';
+        color: black;
+    }
+
+    .instagram::after{
+        content: ' Instagram';
+        color: black;
+    }
+
+    .pinterest::after{
+        content: ' Pinterest';
+        color: black;
+    }
+
+    .youtube::after{
+        content: ' Youtube';
+        color: black;
+    }
+
+    .picture img{
+        width: 20%;
+    }
+
+    .box-footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: left;
+    }
+
+    
 }
